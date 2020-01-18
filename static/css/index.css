@@ -50,6 +50,72 @@ nav a {
 	vertical-align: middle;
 }
 
-@keyframes flickeron {
-	
+nav a:hover {
+	color: white;
+	text-shadow: 0px 0px 8px white;
+}
+
+/* CSS for the TITLE. */
+
+.content-body {
+	display: block;
+	width: 100%;
+	position: fixed;
+
+	top: 0;
+	bottom: 0;
+	background-color: transparent;
+	z-index: 999;
+}
+
+.title {
+	display: block;
+	width: 100%;
+
+	margin-top: 18%;
+
+	color: #DDD;
+	font-size: 800%;
+	font-family: "Azonix";
+
+	text-align: center;
+
+	animation-name: flicker;
+	animation-delay: 5s;
+	animation-duration: 8s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+@keyframes flicker {
+	0% { color: #DDD; text-shadow: none; }
+	9% { color: #DDD; text-shadow: none; }
+	10% { color: white; text-shadow: 0px 0px 8px white; }
+	19% { color: white; text-shadow: 0px 0px 8px white; }
+	20% { color: #DDD; text-shadow: none; }
+	29% { color: #DDD; text-shadow: none; }
+	30% { color: white; text-shadow: 0px 0px 8px white; }
+	34% { color: white; text-shadow: 0px 0px 8px white; }
+	35% { color: #DDD; text-shadow: none; }
+	44% { color: #DDD; text-shadow: none; }
+	45% { color: white; text-shadow: 0px 0px 8px white; }
+	47% { color: white; text-shadow: 0px 0px 8px white; }
+	48% { color: #DDD; text-shadow: none; }
+	52% { color: #DDD; text-shadow: none; }
+	53% { color: white; text-shadow: 0px 0px 8px white; }
+	55% { color: white; text-shadow: 0px 0px 8px white; }
+	56% { color: #DDD; text-shadow: none; }
+	58% { color: white; text-shadow: 0px 0px 8px white; }
+	60% { color: #DDD; text-shadow: none; }
+	61% { color: white; text-shadow: 0px 0px 8px white; }
+	62% { color: #DDD; text-shadow: none; }
+	63% { color: white; text-shadow: 0px 0px 8px white; }
+	64% { color: #DDD; text-shadow: none; }
+	65% { color: white; text-shadow: 0px 0px 8px white; }
+	66% { color: #DDD; text-shadow: none; }
+	67% { color: white; text-shadow: 0px 0px 8px white; }
+	68% { color: #DDD; text-shadow: none; }
+	69% { color: white; text-shadow: 0px 0px 8px white; }
+	70% { color: #DDD; text-shadow: none; }
+	71% { color: white; text-shadow: 0px 0px 8px white; }
 }
