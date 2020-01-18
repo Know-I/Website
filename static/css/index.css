@@ -72,6 +72,7 @@ nav a:hover {
 	display: block;
 	width: 100%;
 
+	margin: 0;
 	margin-top: 18%;
 
 	color: #DDD;
@@ -87,35 +88,49 @@ nav a:hover {
 	animation-iteration-count: 1;
 }
 
+.motto {
+	display: block;
+	width: 100%;
+
+	margin: 2% 0%;
+
+	color: white;
+	font-size: 130%;
+	font-family: "Azonix";
+
+	text-align: center;
+}
+
 @keyframes flicker {
 	0% { color: #DDD; text-shadow: none; }
 	9% { color: #DDD; text-shadow: none; }
-	10% { color: white; text-shadow: 0px 0px 8px white; }
-	19% { color: white; text-shadow: 0px 0px 8px white; }
+	10% { color: white; text-shadow: 0px 0px 10px white; }
+	19% { color: white; text-shadow: 0px 0px 10px white; }
 	20% { color: #DDD; text-shadow: none; }
 	29% { color: #DDD; text-shadow: none; }
-	30% { color: white; text-shadow: 0px 0px 8px white; }
-	34% { color: white; text-shadow: 0px 0px 8px white; }
+	30% { color: white; text-shadow: 0px 0px 10px white; }
+	34% { color: white; text-shadow: 0px 0px 10px white; }
 	35% { color: #DDD; text-shadow: none; }
 	44% { color: #DDD; text-shadow: none; }
-	45% { color: white; text-shadow: 0px 0px 8px white; }
-	47% { color: white; text-shadow: 0px 0px 8px white; }
+	45% { color: white; text-shadow: 0px 0px 10px white; }
+	47% { color: white; text-shadow: 0px 0px 10px white; }
 	48% { color: #DDD; text-shadow: none; }
 	52% { color: #DDD; text-shadow: none; }
-	53% { color: white; text-shadow: 0px 0px 8px white; }
-	55% { color: white; text-shadow: 0px 0px 8px white; }
+	53% { color: white; text-shadow: 0px 0px 10px white; }
+	55% { color: white; text-shadow: 0px 0px 10px white; }
 	56% { color: #DDD; text-shadow: none; }
-	58% { color: white; text-shadow: 0px 0px 8px white; }
+	58% { color: white; text-shadow: 0px 0px 10px white; }
 	60% { color: #DDD; text-shadow: none; }
-	61% { color: white; text-shadow: 0px 0px 8px white; }
+	61% { color: white; text-shadow: 0px 0px 10px white; }
 	62% { color: #DDD; text-shadow: none; }
-	63% { color: white; text-shadow: 0px 0px 8px white; }
+	63% { color: white; text-shadow: 0px 0px 10px white; }
 	64% { color: #DDD; text-shadow: none; }
-	65% { color: white; text-shadow: 0px 0px 8px white; }
+	65% { color: white; text-shadow: 0px 0px 10px white; }
 	66% { color: #DDD; text-shadow: none; }
-	67% { color: white; text-shadow: 0px 0px 8px white; }
+	67% { color: white; text-shadow: 0px 0px 10px white; }
 	68% { color: #DDD; text-shadow: none; }
-	69% { color: white; text-shadow: 0px 0px 8px white; }
+	69% { color: white; text-shadow: 0px 0px 10px white; }
 	70% { color: #DDD; text-shadow: none; }
-	71% { color: white; text-shadow: 0px 0px 8px white; }
+	71% { color: white; text-shadow: 0px 0px 10px white; }
+	100% { color: white; text-shadow: 0px 0px 10px white; }
 }
