@@ -1,0 +1,97 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+  font-family: "Azonix";
+  src: url("../../../static/fonts/azonix.otf");
+}
+
+/* CSS for the NAVBAR. */
+
+nav {
+	display: block;
+	width: 100%;
+	position: fixed;
+
+	top: 0;
+	left: 0;
+
+	margin: 0;
+	padding: 0.5% 0%;
+
+	background-color: black;
+	z-index: 1000;
+}
+
+nav .logo {
+	display: inline-block;
+	width: 6.5%;
+
+	margin: 0 42% 0 8%;
+	padding: 0;
+}
+
+nav .logo img {
+	width: 100%;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0% 1%;
+
+	font-family: "Azonix";
+	font-size: 130%;
+	color: #DDD;
+
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+nav a:hover {
+	color: white;
+	text-shadow: 0px 0px 8px white;
+}
+
+/* CSS for the TITLE. */
+
+.content-body {
+	display: block;
+	width: 100%;
+	position: fixed;
+
+	top: 0;
+	bottom: 0;
+	background-color: transparent;
+	z-index: 999;
+}
+
+/* CSS for the ABOUT-BOX. */
+
+.about-body {
+	display: block;
+	width: 95%;
+
+	margin: 8% auto 0% auto;
+	padding: 2% 0%;
+
+	background-color: rgba(0,0,0,0.7);
+}
+
+.about-body p {
+	display: block;
+	width: 83%;
+
+	margin: 0 auto;
+	padding: 0;
+
+	text-align: left;
+
+	font-family: "Montserrat";
+	font-size: 115%;
+
+	color: #add8e6;
+	text-shadow: 0px 0px 5px white;
+}
