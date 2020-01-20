@@ -113,8 +113,10 @@ nav a:hover {
 	margin: 2% auto 8% auto;
 	padding: 2% 0%;
 
+	text-decoration: none;
 	background-color: black;
 	border-radius: 5px;
+	border: 1px solid white;
 	box-shadow: 0 0px 25px 0 rgba(255,255, 255, 0.2), 0 0px 25px 0 rgba(255, 255, 255, 0.19);
 }
 
@@ -151,4 +153,13 @@ nav a:hover {
 	font-size: 105%;
 
 	vertical-align: top;
+}
+
+.events-body .events-column .event:hover {
+	border: 1px solid #2196f3;
+	text-shadow: 0px 0px 5px #2196f3;
+}
+
+.events-body .events-column .event:hover .event p {
+	color: #2196f3;
 }
